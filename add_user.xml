@@ -1,0 +1,8 @@
+<system xmlns="urn:ietf:params:xml:ns:yang:ietf-system">
+   <authentication>
+     <user>
+       <name>devops</name>
+       <password>$6$f84hS2mfF1MhddHu$PpgMYDzIUuFUeP1AexPLkjiItLHQRGgKCbQNXqZlEsFO3/ZGCWUZ4XY1IjTYAbXBA2EEPCMrZVviXQDgHOKK70</password>
+     </user>
+   </authentication>
+</system>
