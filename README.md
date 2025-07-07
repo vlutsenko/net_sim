@@ -22,3 +22,10 @@ ubnt@ubuntu:~/yang_models/dzs_olt_fc_sim/dzs_olt_fc_sim$ docker exec -it eabf161
 
 root@eabf161a4727:/opt# 
 
+### to check if input (in xml) fits to the yang models
+yanglint -i -t config -m ietf-system@2014-08-06.yang dzs-system-deviations@2024-06-21.yang usr.xml
+yanglint -p /opt/modules/ -i -t config \
+  -m ietf-system@2014-08-06.yang dzs-system-deviations.yang usr.xml
+
+### tree representation of data structure after models consolidation
+yanglint -f tree ietf-system@2014-08-06.yang dzs-system-deviations.yang
