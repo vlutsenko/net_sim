@@ -29,3 +29,7 @@ yanglint -p /opt/modules/ -i -t config \
 
 ### tree representation of data structure after models consolidation
 yanglint -f tree ietf-system@2014-08-06.yang dzs-system-deviations.yang
+
+
+### enable features
+sysrepoctl -i ietf-system\@2014-08-06.yang -e authentication -e local-users
