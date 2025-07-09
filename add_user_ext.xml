@@ -1,0 +1,11 @@
+<system xmlns="urn:ietf:params:xml:ns:yang:ietf-system">
+	<hostname>49_30_6404_76H2_FCA</hostname>
+	<authentication>
+		<user>
+			<name>dzsadmin</name>
+			<password>*****</password>
+			<password-expire xmlns="urn:vendor:dzs-authentication">not-applicable</password-expire>
+			<options xmlns="urn:vendor:dzs-authentication"/>
+		</user>
+	</authentication>
+</system>
